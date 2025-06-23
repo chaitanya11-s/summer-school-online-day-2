@@ -24,6 +24,4 @@
 ✔️ Hover effect added on contact links (color & underline).
 ✔️ Border and hover shadow on the profile card.
 
-📝 Repo Name Format: summer-school-online-day-2
 
-Make sure you commit and push all 3 files to your GitHub repo and make it public!
