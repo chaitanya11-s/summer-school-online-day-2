@@ -1,0 +1,19 @@
+/* External CSS for additional styling */
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+    border: 4px dashed magenta;
+}
+
+h1, h2 {
+    color: darkviolet;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px hotpink;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}

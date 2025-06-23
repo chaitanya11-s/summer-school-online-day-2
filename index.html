@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saksham's Funky Profile Card</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 15px #00f;
+            padding: 30px;
+            text-align: center;
+            width: 350px;
+        }
+
+        .bio {
+            color: #333;
+            font-style: italic;
+        }
+
+        .hobbies li {
+            list-style-type: 💥;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        a[href] {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        a[href]:hover {
+            text-decoration: underline;
+            color: hotpink;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card" style="background-color: #fdf0ff;"> <!-- Inline CSS applied here -->
+        <h1>Chaitanya Kumar</h1>
+        <img id="profile-pic" src="./Chaitanaya.jpg" alt="Saksham's Profile Photo">
+
+        <p class="bio">Front-end developer. CSS enthusiast. Coffee lover ☕</p>
+
+        <h2>Hobbies</h2>
+        <ul class="hobbies">
+            <li>Coding funky UIs</li>
+            <li>Listening to Indie Music 🎧</li>
+            <li>Skateboarding 🛹</li>
+        </ul>
+
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:chaitanyakr2604@gmail.com">chaitanyakr2604@gmail.com</a></p>
+            
+        </div>
+    </div>
+</body>
+</html>
